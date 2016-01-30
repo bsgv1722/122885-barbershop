@@ -6,12 +6,12 @@
   </head>
   <body>
 
-     <header class="shop-header">
-       <div class="shop-container">
-       <a href="#">
-       <img src="http://placehold.it/150x100" class="logo">
+     <header class="main-header">
+       <div class="container">
+       <a href="#" class="logo">
+       <img src="http://placehold.it/150x100">
        </a>
-         <nav class="shop-navigation">
+         <nav class="main-navigation">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -37,11 +37,11 @@
     </header>
 
 
-    <main class="shop-content">
+    <main class="conteiner">
     
       <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-      <nav class="shop-breadcrumbs"> 
-     <ul>
+      
+     <ul class="breadcrumbs">
      	<li>
      		<a href="#">Главная</a>
      	</li>
@@ -53,87 +53,131 @@
      	</li>
      </ul>
 
-     </nav>
+    
      
 
-
+<div class="content">
 
      <div class="shop-filter">
      
-<h2>ПРОИЗВОДИТЕЛИ</h2> <br>
 
-     <form action="https://echo.htmlacademy.ru" method="post">
 
-     <label> <input type="checkbox" id="cbox1" value="first_checkbox"> BAXTER OF CALIFORNIA</input> </label>    
-     <label><input type="checkbox" id="cbox2" value="second_checkbox" > MR NATTY</input></label>  
-     <label><input type="checkbox" id="cbox3" value="third_checkbox" > SUAVECITO</input> </label>
-    <label><input type="checkbox" id="cbox4" value="fourth_checkbox"> MALIN+GOETZ</input> </label>
-    <label> <input type="checkbox" id="cbox5" value="fifth_checkbox"> MYRRAYS</input> </label>
-    <label><input type="checkbox" id="cbox6" value="six_checkbox"> AMERICAN CREW</input></label>
+     <form action="https://echo.htmlacademy.ru" method="post"> </form>
 
-    <h2>ГРУППЫ ТОВАРОВ</h2>
-<label> <input type="checkbox" id="cbox7" value="seven_checkbox"> Бритвенные принадлежности </label>
-<label> <input type="checkbox" id="cbox8" value="eight_checkbox"> Средства для ухода </label>
-<label> <input type="checkbox" id="cbox9" value="nine_checkbox"> Аксессуары </label>
+<div class="filter-block1">
+<legend>ПРОИЗВОДИТЕЛИ</legend> <br>
+     <label> <input type="checkbox" id="cbox1" value="first_checkbox" name="code"> <span>BAXTER OF CALIFORNIA</span> </label>    
+     <label><input type="checkbox" id="cbox2" value="second_checkbox" name="code" ><span> MR NATTY</span></label>  
+     <label><input type="checkbox" id="cbox3" value="third_checkbox" name="code" ><span> SUAVECITO</span></label>
+    <label><input type="checkbox" id="cbox4" value="fourth_checkbox" name="code"> <span>MALIN+GOETZ</span></label>
+    <label> <input type="checkbox" id="cbox5" value="fifth_checkbox" name="code"><span> MYRRAYS</span></label>
+    <label><input type="checkbox" id="cbox6" value="six_checkbox" name="code"><span> AMERICAN CREW</span></label>
 
-  <a href="#" class="button">Показать</a>
+    </div>
+
+<div class="filter-block2">
+    <legend>ГРУППЫ ТОВАРОВ</legend>
+<label> <input type="radio" id="cbox7" value="seven_checkbox" name="code"><span> Бритвенные принадлежности</span> </label>
+<label> <input type="radio" id="cbox8" value="eight_checkbox" name="code"> <span>Средства для ухода</span> </label>
+<label> <input type="radio" id="cbox9" value="nine_checkbox" name="code"><span> Аксессуары </span></label>
+<div class="filter-block2">
+
+  <input type="submit" value="Показать" class="button">
      </form>
      </div>
 
 
 
 <div class="shop-product">
-<article class="item-img">                                    <!--Картинки-->
+
+<article class="item">                                    <!--Картинки-->
 	<img src="http://placehold.it/150x100">
-	<b>Набор для путешествий "BAXTER OF CALIFORNIA"</b>
-	<div class="shop-prise">
+  <div class="name-product">
+  <a href="#">
+	<span class="title">Набор для путешествий</span>
+  <span class="category">"BAXTER OF CALIFORNIA"</span>
+  </a>
+  </div>
+	<div class="item-prise">
   <span>2900РУБ</span> 
 	<a href="#" class="button">КУПИТЬ</a>
   </div>
 </article>
-<article class="item-img">
+
+<article class="item">
 	<img src="http://placehold.it/150x100">
-	<b>Увлажняющий кондиционер</b>
-  <div class="shop-prise">
+  <div class="name-product">
+  <a href="#">
+	<span class="title">Увлажняющий кондиционер</span>
+  <span class="category">"BAXTER OF CALIFORNIA"</span>
+  </a>
+  </div>
+  <div class="item-prise">
 	<span>750РУБ</span> 
 	<a href="#" class="button">КУПИТЬ</a>
 </div>
 </article>
-<article class="item-img">
+
+<article class="item">
 	<img src="http://placehold.it/150x100">
-	<b>Гель для волос</b>
-  <div class="shop-prise">
+  <div class="name-product">
+  <a href="#">
+	<span class="title">Гель для волос</span>
+  <span class="category">"BAXTER OF CALIFORNIA"</span>
+  </a>
+  </div>
+  <div class="item-prise">
 	<span>290РУБ</span> 
 	<a href="#" class="button">КУПИТЬ</a>
 </div>
 </article>
-<article class="item-img">
+
+<article class="item">
 	<img src="http://placehold.it/150x100">
-	<b>Глина для укладки волос</b>
-  <div class="shop-prise">
+   <div class="name-product">
+  <a href="#">
+	<span class="title">Глина для укладки волос</span>
+  <span class="category">"AMERICAN CREW"</span>
+  </a>
+  </div>
+  <div class="item-prise">
 	<span>500РУБ</span> 
 	<a href="#" class="button">КУПИТЬ</a>
 </div>
 </article>
-<article class="item-img">
+
+<article class="item">
 	<img src="http://placehold.it/150x100">
-	<b>Гель для волос</b>
-  <div class="shop-prise">
+  <div class="name-product">
+   <a href="#">
+	<span class="title">Гель для волос</span>
+  <span class="category">"SUAVECETO"</span>
+    </a>
+    </div>
+  <div class="item-prise">
 	<span>300РУБ</span> 
 	<a href="#" class="button">КУПИТЬ</a>
 </div>
+
 </article>
-<article class="item-img">
+<article class="item">
 	<img src="http://placehold.it/150x100">
-	<b>Набор для бритья</b>
-  <div class="shop-prise">
+  <div class="name-product">
+  <a href="#">
+	<span>Набор для бритья</span>
+  <span class="category">"BAXTER OF CALIFORNIA"</span>
+   </a>
+   </div>
+  <div class="item-prise">
 	<span>3900РУБ</span> 
 	<a href="#" class="button">КУПИТЬ</a>
   </div>
 </article>                                                <!---Картинки-->
 
 
-<nav class="shop-navigation">
+
+
+
 	
 <ul>
 	<li>
@@ -149,9 +193,11 @@
 		<a href="#">4</a>
 	</li>
 </ul>
-
-</nav>
  </div>
+</div>
+
+
+
     </main>
 
 
