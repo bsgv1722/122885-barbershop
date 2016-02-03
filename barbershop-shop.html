@@ -7,12 +7,13 @@
   </head>
   <body>
 
-     <header class="main-header">
-       <div class="container">
-       <a href="#" class="logo">
-       <img src="img/Logo2.png">
-       </a>
-         <nav class="main-navigation">
+    <header class="main-header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="img/Logo2.png">
+        </a>
+
+        <nav class="main-navigation">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -31,204 +32,186 @@
             </li>
           </ul>
         </nav>
+
         <div class="user-block">
           <a class="login" href="#">Вход</a>
         </div>
+
       </div>
     </header>
 
 
     <main class="container">
     
-      <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+        <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
       
-     <ul class="breadcrumbs">
-     	<li>
-     		<a href="#">Главная</a>
-     	</li>
-     	<li>
-     		<a href="#">Магазин</a>
-     	</li>
-     	<li>
-     		<span>Средства для ухода</span>
-     	</li>
-     </ul>
+        <ul class="breadcrumbs">
+     	      <li>
+     		     <a href="#">Главная</a>
+     	      </li>
+            <li>
+             <a href="#">Магазин</a>
+            </li>
+            <li>
+             <span>Средства для ухода</span>
+            </li>
+            
+        </ul>
 
-    
+
+    <div class="content">
+
+        <div class="shop-filter">
      
+          <form action="https://echo.htmlacademy.ru" method="post" class="filter"> 
 
-<div class="content">
+        <div class="field-set">
+          <legend>ПРОИЗВОДИТЕЛИ</legend> 
+             <label> <input type="checkbox" id="cbox1" value="first_checkbox" name="code"> <span>BAXTER OF CALIFORNIA</span>  </label>    
+             <label><input type="checkbox" id="cbox2" value="second_checkbox" name="code" ><span> MR NATTY</span></label>  
+             <label><input type="checkbox" id="cbox3" value="third_checkbox" name="code" ><span> SUAVECITO</span></label>
+             <label><input type="checkbox" id="cbox4" value="fourth_checkbox" name="code"> <span>MALIN+GOETZ</span></label>
+             <label> <input type="checkbox" id="cbox5" value="fifth_checkbox" name="code"><span> MYRRAYS</span></label>
+             <label><input type="checkbox" id="cbox6" value="six_checkbox" name="code"><span> AMERICAN CREW</span></label>
 
-     <div class="shop-filter">
-     
+        </div>
 
+        <div class="field-set">
+          <legend>ГРУППЫ ТОВАРОВ</legend>
+            <label> <input type="radio" id="cbox7" value="seven_checkbox" name="code"><span> Бритвенные принадлежности</span> </label>
+            <label> <input type="radio" id="cbox8" value="eight_checkbox" name="code"> <span>Средства для ухода</span> </label>
+            <label> <input type="radio" id="cbox9" value="nine_checkbox" name="code"><span> Аксессуары </span></label>
+        </div>
 
-     <form action="https://echo.htmlacademy.ru" method="post" class="filter"> 
-
-<div class="field-set">
-<legend>ПРОИЗВОДИТЕЛИ</legend> 
-     <label> <input type="checkbox" id="cbox1" value="first_checkbox" name="code"> <span>BAXTER OF CALIFORNIA</span>  </label>    
-     <label><input type="checkbox" id="cbox2" value="second_checkbox" name="code" ><span> MR NATTY</span></label>  
-     <label><input type="checkbox" id="cbox3" value="third_checkbox" name="code" ><span> SUAVECITO</span></label>
-    <label><input type="checkbox" id="cbox4" value="fourth_checkbox" name="code"> <span>MALIN+GOETZ</span></label>
-    <label> <input type="checkbox" id="cbox5" value="fifth_checkbox" name="code"><span> MYRRAYS</span></label>
-    <label><input type="checkbox" id="cbox6" value="six_checkbox" name="code"><span> AMERICAN CREW</span></label>
-
-    </div>
-
-<div class="field-set">
-    <legend>ГРУППЫ ТОВАРОВ</legend>
-<label> <input type="radio" id="cbox7" value="seven_checkbox" name="code"><span> Бритвенные принадлежности</span> </label>
-<label> <input type="radio" id="cbox8" value="eight_checkbox" name="code"> <span>Средства для ухода</span> </label>
-<label> <input type="radio" id="cbox9" value="nine_checkbox" name="code"><span> Аксессуары </span></label>
-</div>
-
-  <input type="submit" value="Показать" class="button">
-     </form>
-     </div>
-</div>
+        <input type="submit" value="Показать" class="button">
+          </form>
+        </div>
 
 
-<div class="shop-product">
 
-<article class="item">  
-                                  <!--Картинки-->
-	<img src="img/img10.jpg">
+        
+        <div class="shop-product">
 
+           <article class="item">                   
+	            <img src="img/img10.jpg">
+              <a href="#" class="item-title">
+	              <span class="title">Набор для путешествий</span>
+                <span class="category">"BAXTER OF CALIFORNIA"</span>
+              </a>
 
-  <a href="#" class="item-title">
-	<span class="title">Набор для путешествий</span>
-  <span class="category">"BAXTER OF CALIFORNIA"</span>
-  </a>
+              <div class="item-price">
+                 <span>750РУБ</span> 
+                 <a href="#" class="button">КУПИТЬ</a>
+              </div>
 
+            </article>
 
-	<div class="item-price">
-  <span>2900РУБ</span> 
-	<a href="#" class="button">КУПИТЬ</a>
-  </div>
+            <article class="item">                   
+              <img src="img/img10.jpg">
+              <a href="#" class="item-title">
+                <span class="title">Набор для путешествий</span>
+                <span class="category">"BAXTER OF CALIFORNIA"</span>
+              </a>
 
-</article>
+              <div class="item-price">
+                 <span>750РУБ</span> 
+                 <a href="#" class="button">КУПИТЬ</a>
+              </div>
 
-<article class="item">
+            </article>
 
-	<img src="img/img11.jpg">
+            <article class="item">                   
+              <img src="img/img10.jpg">
+              <a href="#" class="item-title">
+                <span class="title">Набор для путешествий</span>
+                <span class="category">"BAXTER OF CALIFORNIA"</span>
+              </a>
 
+              <div class="item-price">
+                 <span>750РУБ</span> 
+                 <a href="#" class="button">КУПИТЬ</a>
+              </div>
 
-  <a href="#" class="item-title">
-	<span class="title">Увлажняющий кондиционер</span>
-  <span class="category">"BAXTER OF CALIFORNIA"</span>
-  </a>
+            </article>
 
-  <div class="item-price">
-	<span>750РУБ</span> 
-	<a href="#" class="button">КУПИТЬ</a>
-</div>
+            <article class="item">                   
+              <img src="img/img10.jpg">
+              <a href="#" class="item-title">
+                <span class="title">Набор для путешествий</span>
+                <span class="category">"BAXTER OF CALIFORNIA"</span>
+              </a>
 
-</article>
+              <div class="item-price">
+                 <span>750РУБ</span> 
+                 <a href="#" class="button">КУПИТЬ</a>
+              </div>
 
-<article class="item">
+            </article>
 
-	<img src="img/img12.jpg">
+            <article class="item">                   
+              <img src="img/img10.jpg">
+              <a href="#" class="item-title">
+                <span class="title">Набор для путешествий</span>
+                <span class="category">"BAXTER OF CALIFORNIA"</span>
+              </a>
 
-  <a href="#" class="item-title">
-	<span class="title">Гель для волос</span>
-  <span class="category">"BAXTER OF CALIFORNIA"</span>
-  </a>
+              <div class="item-price">
+                 <span>750РУБ</span> 
+                 <a href="#" class="button">КУПИТЬ</a>
+              </div>
 
+            </article>
 
-  <div class="item-price">
-	<span>290РУБ</span> 
-	<a href="#" class="button">КУПИТЬ</a>
-</div>
+            <article class="item">                   
+              <img src="img/img10.jpg">
+              <a href="#" class="item-title">
+                <span class="title">Набор для путешествий</span>
+                <span class="category">"BAXTER OF CALIFORNIA"</span>
+              </a>
 
-</article>
+              <div class="item-price">
+                 <span>750РУБ</span> 
+                 <a href="#" class="button">КУПИТЬ</a>
+              </div>
 
-<article class="item">
+            </article>
 
-	<img src="img/img13.jpg">
-
- 
-  <a href="#" class="item-title">
-	<span class="title">Глина для укладки волос</span>
-  <span class="category">"AMERICAN CREW"</span>
-  </a>
-  
-	<span>500РУБ</span> 
-	<a href="#" class="button">КУПИТЬ</a>
-</div>
-
-</article>
-
-<article class="item">
-
-	<img src="img/img14.jpg">
-
-
-   <a href="#" class="item-title">
-	<span class="title">Гель для волос</span>
-  <span class="category">"SUAVECETO"</span>
-    </a>
-  
-  <div class="item-price">
-	<span>300РУБ</span> 
-	<a href="#" class="button">КУПИТЬ</a>
-</div>
-
-</article>
-
-<div class="item-price">
-
-	<img src="img/img15.jpg">
-
-  
-  <a href="#" class="item-title">
-	<span>Набор для бритья</span>
-  <span class="category">"BAXTER OF CALIFORNIA"</span>
-   </a>
-
-
-  <div class="item-price">
-	<span>3900РУБ</span> 
-	<a href="#" class="button">КУПИТЬ</a>
-  </div>
-  
-</article>                                                <!---Картинки-->
-
+                          
+        </div>
 
 
 
 
 	
-<ul>
-	<li>
-		<a href="#">1</a>
-	</li>
-	<li>
-		<a href="#">2</a>
-	</li>
-	<li>
-		<a href="#">3</a>
-	</li>
-	<li>
-		<a href="#">4</a>
-	</li>
-</ul>
- </div>
-</div>
-
-
+        <ul class="shop-paginaition">
+           <li>
+            <a href="#">1</a>
+        	 </li>
+           <li>
+            <a href="#">2</a>
+           </li>
+           <li>
+            <a href="#">3</a>
+           </li>
+           <li>
+            <a href="#">4</a>
+           </li>
+        </ul>
+ 
+    </div>
 
     </main>
 
 
     <footer class="main-footer">  <!--Подвал-->
-      <div class="container">
-<section class="footer-contacts">
+       <div class="container">
+        <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
         </section>
+
         <section class="footer-social">
           <p>Давайте дружить!</p>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
@@ -239,7 +222,7 @@
           <p>Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
-      </div>
+       </div>
     </footer>
   </body>
 </html>
